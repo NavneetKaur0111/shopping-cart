@@ -5,6 +5,7 @@ const cssnano = require("cssnano");
 const sourcemaps = require("gulp-sourcemaps");
 const concat = require("gulp-concat");
 const uglify = require("gulp-uglify-es").default;
+const image = require("gulp-image");
 
 function clearTask() {
   return del("dist/*");
@@ -33,7 +34,9 @@ function scriptsTask() {
 }
 
 function imagesTask() {
-  return src("src/images/*").pipe(dest("dist/images/"));
+  return src("src/images/*")
+    .pipe(image())
+    .pipe(dest("dist/images/"));
 }
 
 exports.clear = clearTask;
