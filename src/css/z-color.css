@@ -1,0 +1,15 @@
+body {
+  background-color: antiquewhite;
+}
+
+nav {
+  background-color: brown;
+}
+
+#add-to-cart {
+  background-color: chocolate;
+}
+
+.cart-inner {
+  background-color: chocolate;
+}
