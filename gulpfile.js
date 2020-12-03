@@ -4,6 +4,7 @@ const postcss = require("gulp-postcss");
 const cssnano = require("cssnano");
 const sourcemaps = require("gulp-sourcemaps");
 const concat = require("gulp-concat");
+const uglify = require("gulp-uglify-es").default;
 
 function clearTask() {
   return del("dist/*");
@@ -23,7 +24,12 @@ function stylesTask() {
 }
 
 function scriptsTask() {
-  return src("src/js/*.js").pipe(dest("dist/js/"));
+  return src("src/js/*.js")
+    .pipe(sourcemaps.init())
+    .pipe(uglify())
+    .pipe(sourcemaps.write())
+    .pipe(concat("all.js"))
+    .pipe(dest("dist/js/"));
 }
 
 function imagesTask() {
