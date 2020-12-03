@@ -1,0 +1,30 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NavneetKaur0111/shopping-cart.git"
+  },
+  "author": "Navneet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NavneetKaur0111/shopping-cart/issues"
+  },
+  "homepage": "https://github.com/NavneetKaur0111/shopping-cart#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-image": "^6.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^2.0.0"
+  }
+}
