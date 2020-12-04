@@ -2,22 +2,27 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
-body { 
-  font-family: 'Roboto', sans-serif;
-  background-color: #FEF0F1;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fef0f1;
 }
 
 ul {
   padding: 0;
   margin: 0;
-  list-style: none;  
+  list-style: none;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
 }
 
@@ -56,7 +61,7 @@ nav {
 
 .cart-inner {
   position: absolute;
-  right: 0;  
+  right: 0;
   top: 37px;
   background: #006d5d;
   padding: 20px;
@@ -68,7 +73,9 @@ nav {
   display: none;
 }
 
-.cart-inner li, .subtotal, .total{
+.cart-inner li,
+.subtotal,
+.total {
   display: grid;
   grid-template-columns: 75px 200px 80px 30px;
   column-gap: 5px;
@@ -80,12 +87,14 @@ nav {
   cursor: pointer;
 }
 
-.subtotal > span, .total > span{
+.subtotal > span,
+.total > span {
   grid-column-start: 2;
   justify-self: right;
 }
 
-.subtotal > span + span, .total > span + span{
+.subtotal > span + span,
+.total > span + span {
   grid-column-start: 3;
 }
 
@@ -133,4 +142,11 @@ main {
   color: #0b3c5f;
   background-color: white;
   border: 2px solid #456990;
+}
+
+.courses li:hover {
+  color: chocolate;
+  border: 3px solid chocolate;
+  border-radius: 2px;
+  padding: 2px;
 }
