@@ -1,0 +1,191 @@
+  502  git init
+  503  git status
+  504  touch .gitignore
+  505  git status
+  506  git stats
+  507  git status
+  508  git add .
+  509  git config --global core.autocrlf true
+  510  git status
+  511  git commit -m "initial commit"
+  512  git status
+  513  git remote add origin https://github.com/NavneetKaur0111/shopping-cart.git
+  514  git branch -M main
+  515  git push -u origin main
+
+   24  git status
+   25  mkdir src
+   26  ls
+   27  mv css images js index.html src
+   28  git status
+   29  git add .
+   30  git status
+   31  git commit -m "add all the files into src folder"
+   32  git status
+   33  git branch
+   34  git branch addGulp
+   35  git switch addGulp
+   36  code .
+   37  npm init
+   38  npm i --save-dev gulp
+   39  gulp
+   40  gulp images
+   41  npm i
+   42  git status
+   43  gulp
+   44  git log
+   45  git status
+   46  git add .
+   47  git status
+   48  git commit -m "add gulp"
+   49  git status
+   50  npm i del
+   51  npm i --save-dev del
+   52  gulp clear
+   53  gulp
+   54  npm i --save-dev csso
+   55  gulp
+   56  npm i --save-dev gulp-csso
+   57  gulp
+   58  git log 
+   59  gulp
+   60  npm i
+   61  gulp
+   62  npm install --save-dev gulp-concat
+   63  gulp
+   64  gulp
+   65  npm install --save-dev gulp-concat-css
+   66  gulp
+   67  gulp
+   68  npm i --save-dev gulp-postcss
+   69  npm i --save-dev cssnano
+   70  gulp
+   71  gulp
+   72  npm i
+   73  gulp
+   74  npm install
+   75  gulp
+   76  npm i --save-dev gulp-sourcemaps
+   77  gulp
+   78  gulp
+   79  gulp
+   80  history
+   81  npm i --save-dev gulp-concat
+   82  gulp
+   83  gulp
+   84  gulp
+   85  git status
+   86  git log
+   87  git add .
+   88  git commit -m "minify, concatenate and create soursemap for css files"
+   89  git status
+   90  gulp
+   91  npm i --save-dev gulp-uglify
+   92  gulp
+   93  gulp
+   94  gulp
+   95  gulp
+   96  gulp
+   97  npm i --save-dev gulp-uglify-es
+   98  gulp
+   99  gulp
+  100  gulp
+  101  gulp
+  102  git status
+  103  git status
+  104  gulp
+  105  npm install --save-dev gulp-image
+  106  git status
+  107  git log
+  108  git reset --soft HEAD~!
+  109  git  log
+  110  git log --oneline
+  111  git status
+  112  git log
+  113  git add .
+  114  git status
+  115  git commit -m "modify, concatenate and create sourcemap for js files"
+  116  git status
+  117  git lo
+  118  git log
+  119  npm install --save-dev gulp-image
+  120  gulp
+  121  gulp
+  122  git status
+  123  git add . 
+  124  git commit -m "optimize all the images in image folder"
+  125  git log
+  126  git rebase -i HEAD~3
+  127  git log
+  128  gulp
+  129  git status
+  130  git branch
+  131  git switch main
+  132  git status
+  133  git status
+  134  git log
+  135  git switch addGulp
+  136  git switch addGulp
+  137  git status
+  138  git add .
+  139  git commit -m "add node_modules and dist folders into .gitignore"
+  140  git status
+  141  git branch
+  142  git switch addGulp
+  143  git switch main
+  144  git merge addGulp
+  145  git branch -d addGulp
+  146  git status
+  147  git push
+  148  git branch
+  149  git branch addColors
+  150  git branch -d addColors
+  151  git switch -c color-change
+  152  gulp
+  153  gulp
+  154  gulp
+  155  gulp
+  156  git status
+  157  git add .
+  158  git commit -m "change colors of the page"
+  159  git status
+  160  git switch main
+  161  git branch
+  162  git merge color-change
+  163  npm i
+  164  gulp
+  165  git status
+  166  git push
+  167  history
+  168  git branch
+  169  git branch hovereffect
+  170  git switch hovereffect
+  171  .DS_Store
+  172  .DS_Store
+  173  ls
+  174  gulp
+  175  gulp
+  176  git status
+  177  git add .
+  178  git commit -m "change text color and border on hover over courses"
+  179  git status
+  180  git switch main
+  181  git merge hovereffect
+  182  git log
+  183  git rebase -i HEAD~7
+  184  git rebase -i HEAD~5
+  185  git status
+  186  git push
+  187  git pull
+  188  git push --help
+  189  git pull --help
+  190  git pull
+  191  git push
+  192  git branch
+  193  git branch -d color-change hovereffect
+  194  git merge hovereffect
+  195  git branch -d hovereffect
+  196  gulp
+  197  git status
+  198  history
+  
